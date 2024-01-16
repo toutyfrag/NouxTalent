@@ -70,7 +70,7 @@ function GrowYourTeamPage() {
 }
 
 function App() {
-  // ring-gray-100 ring-opacity-15 shadow-2xl
+  // ring-gray-100 ring-opacirty-15 shadow-2xl
   return (
     <div className="overflow-hidden bg-[#F6F1FD] max-[112.5rem]:bg-noux-purple">
       <Router>
