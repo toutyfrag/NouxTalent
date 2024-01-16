@@ -3,7 +3,7 @@ import { GenericActionButton } from "../components";
 
 const StatisticalInsight = () => {
   return (
-    <section className="flex items-center justify-center gap-[10rem] mt-20 mb-20 mx-6">
+    <section className="mx-auto max-w-[112.5rem] px-14 flex items-center justify-center gap-[10rem] mt-20 mb-20">
       <div className="flex flex-col gap-6 flex-1">
         <h2 className="text-[64px]">
           We don't just find <br /> jobs we're <br />

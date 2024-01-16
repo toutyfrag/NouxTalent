@@ -76,10 +76,10 @@ const NavContainer = () => {
     <section>
       <animated.div
         style={removalSpring}
-        className={`fixed left-0 top-0 right-0 z-10 py-4`}
+        className={`fixed left-0 top-0 right-0 z-10`}
       >
-        <section className="max-w-[112.5rem] mx-auto px-5">
-          <nav className="flex justify-between items-center rounded-[3rem] h-[72px] bg-[#F6F1FD] px-4 text-2xl font-normal">
+        <section className="px-4">
+          <nav className="flex justify-between items-center rounded-[3rem] h-[72px] bg-[#F6F1FD] pl-4 pr-2 text-2xl font-normal max-w-[112.5rem] mx-auto">
             <div
               className={`${
                 isMenuExpanded

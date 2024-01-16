@@ -2,7 +2,7 @@ import React from "react";
 
 function process() {
   return (
-    <section className="pb-[80px]">
+    <section className="pb-[80px] mx-auto max-w-[112.5rem] px-8">
       <div className="text-[64px] text-center mb-6">
         <h2>
           What can you expect <br />

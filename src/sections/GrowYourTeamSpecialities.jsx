@@ -54,7 +54,7 @@ const GrowYourTeamSpecialities = () => {
   }, []);
 
   return (
-    <section className="mt-20 mx-auto max-w-[112.5rem] px-8">
+    <section className="mt-20 mx-auto max-w-[112.5rem] pl-8">
       <div>
         <div className="flex justify-center flex-col items-center text-center">
           <h2 className="text-[64px]">

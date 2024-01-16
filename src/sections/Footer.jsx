@@ -4,7 +4,7 @@ import { GenericActionButton } from "../components";
 const Footer = () => {
   return (
     <section className="bg-[#040118] text-white pt-40 pb-20 mx-auto max-w-[112.5rem] px-8">
-      <div className="mx-auto max-w-[88rem]">
+      <div className="">
         <div className="flex flex-col gap-4 mb-16">
           <h2 className="text-4xl font-thin">Looking for something NOUX ?</h2>
           <h2 className="text-4xl font-semibold">Let's talk</h2>

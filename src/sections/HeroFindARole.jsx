@@ -4,7 +4,7 @@ import { GenericActionButton } from "../components";
 
 function HeroFindARole() {
   return (
-    <section>
+    <section className="mx-auto max-w-[112.5rem] px-8">
       <div
         className="relative w-full h-[43rem] bg-cover object-cover bg-center rounded-3xl bg-no-repeat flex items-center justify-center overflow-hidden text-white"
         style={{
