@@ -2,7 +2,7 @@ import React from "react";
 
 const GrowYourTeamSupport = () => {
   return (
-    <section className="flex mt-20 mx-auto max-w-[112.5rem] px-8">
+    <section className="flex mt-20 mx-auto max-w-[112.5rem] px-16 gap-40">
       <div className="max-w-[550px]">
         <h2 className="text-[64px] font-medium">
           <span className="text-noux-purple">Tailored</span> support at every
