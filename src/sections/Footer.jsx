@@ -1,5 +1,6 @@
 import React from "react";
 import { GenericActionButton } from "../components";
+import { icons } from "../assets";
 
 const Footer = () => {
   return (
@@ -12,8 +13,16 @@ const Footer = () => {
         <div className="grid grid-cols-4 grid-rows-1 gap-4">
           <div className="col-span-2 flex flex-col gap-20">
             <div>
-              <p className="text-[1.5rem] font-medium">Follow us:</p>
-              <div>icon icon icon</div>
+              <p className="text-[1.5rem] font-medium pb-4">Follow us:</p>
+
+              <div className="flex gap-6">
+                <a href="https://www.linkedin.com/in/larahanson138/">
+                  <icons.linkedIn />
+                </a>
+                <a href="https://www.instagram.com/">
+                  <icons.instagram />
+                </a>
+              </div>
             </div>
 
             <div>

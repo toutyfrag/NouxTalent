@@ -1,6 +1,6 @@
 import React from "react";
 
-function process() {
+function FindYourNextRoleProcess() {
   return (
     <section className="pb-[80px] mx-auto max-w-[112.5rem] px-8">
       <div className="text-[64px] text-center mb-6">
@@ -78,4 +78,4 @@ function process() {
   );
 }
 
-export default process;
+export default FindYourNextRoleProcess;

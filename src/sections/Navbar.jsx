@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { animated, useSpring } from "react-spring";
-import NouxLogo from "../assets/images/NouxLogo.svg?react";
+import nouxLogo from "../assets/images/NouxLogo.svg?react";
 import { navigationLinks } from "../constants";
 import { NavBarMenu } from "../components";
 import { Link } from "react-router-dom";
@@ -95,7 +95,7 @@ const Navbar = () => {
               <NavBarMenu />
             </div>
             <Link to="/">
-              <img src={NouxLogo} alt="" />
+              <img src={nouxLogo} alt="" />
             </Link>
             <ul className={"flex gap-8"}>{renderNavbarLinks()}</ul>
             <div>

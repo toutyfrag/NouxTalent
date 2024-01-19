@@ -1,7 +1,7 @@
 import React from "react";
 import { GenericActionButton } from "../components";
 import { images } from "../assets";
-function HeroGrowYourTeam() {
+function GrowYourTeamHero() {
   return (
     <section className="mx-auto max-w-[112.5rem] px-8">
       <div
@@ -68,4 +68,4 @@ function HeroGrowYourTeam() {
   );
 }
 
-export default HeroGrowYourTeam;
+export default GrowYourTeamHero;

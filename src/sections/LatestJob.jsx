@@ -3,7 +3,7 @@ import { GenericActionButton, JobCard } from "../components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-const JobBoard = () => {
+const LatestJob = () => {
   const [numberOfSlides, setNumberOfSlides] = useState(0);
   const [slideArray, setSlideArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -113,4 +113,4 @@ const JobBoard = () => {
   );
 };
 
-export default JobBoard;
+export default LatestJob;
