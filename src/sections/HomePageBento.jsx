@@ -2,7 +2,7 @@ import React from "react";
 import { GenericActionButton } from "../components";
 import { images } from "../assets";
 
-const HomeBento = () => {
+const HomePageBento = () => {
   return (
     <section className="relative mx-auto max-w-[112.5rem] px-8">
       <div className="grid grid-cols-4 grid-rows-5 gap-4 h-[552px] mt-[104px] z-10">
@@ -76,4 +76,4 @@ const HomeBento = () => {
   );
 };
 
-export default HomeBento;
+export default HomePageBento;

@@ -6,19 +6,18 @@ import {
 } from "react-router-dom";
 
 import {
-  Hero,
-  WhoWeAre,
-  GrowYourTeam,
-  JobBoard,
-  Testimonies,
-  HomeBento,
+  HomePageHero,
+  HomePageWhoWeAre,
+  HomePageGrowYourTeam,
+  LatestJob,
+  HomePageBento,
   BottomCTA,
   Footer,
-  NavContainer,
-  HeroFindARole,
-  StatisticalInsight,
-  Process,
-  HeroGrowYourTeam,
+  Navbar,
+  FindYourNextRoleHero,
+  FindYourNextRoleIntro,
+  FindYourNextRoleProcess,
+  GrowYourTeamHero,
   GrowYourTeamIntro,
   GrowYourTeamSupport,
   GrowYourTeamSpecialities,
@@ -28,13 +27,12 @@ import {
 function HomePage() {
   return (
     <div className="mt-[8rem]">
-      <NavContainer />
-      <Hero />
-      <WhoWeAre />
-      <GrowYourTeam />
-      <JobBoard />
-      {/* <Testimonies /> */}
-      <HomeBento />
+      <Navbar />
+      <HomePageHero />
+      <HomePageWhoWeAre />
+      <HomePageGrowYourTeam />
+      <LatestJob />
+      <HomePageBento />
       <BottomCTA />
       <Footer />
     </div>
@@ -44,12 +42,11 @@ function HomePage() {
 function FindYourNextRolePage() {
   return (
     <div className="mt-[8rem]">
-      <NavContainer />
-      <HeroFindARole />
-      <StatisticalInsight />
-      <Process />
-      <JobBoard />
-      {/* <BottomCTA /> */}
+      <Navbar />
+      <FindYourNextRoleHero />
+      <FindYourNextRoleIntro />
+      <FindYourNextRoleProcess />
+      <LatestJob />
       <Footer />
     </div>
   );
@@ -58,8 +55,8 @@ function FindYourNextRolePage() {
 function GrowYourTeamPage() {
   return (
     <div className="mt-[8rem]">
-      <NavContainer />
-      <HeroGrowYourTeam />
+      <Navbar />
+      <GrowYourTeamHero />
       <GrowYourTeamIntro />
       <GrowYourTeamSupport />
       <GrowYourTeamSpecialities />

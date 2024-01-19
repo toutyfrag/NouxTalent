@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../assets";
 import { GenericActionButton } from "../components";
 
-function GrowYourTeam() {
+function HomePageGrowYourTeam() {
   return (
     <section className="pb-[5rem] mx-auto max-w-[112.5rem] px-8">
       <div
@@ -28,4 +28,4 @@ function GrowYourTeam() {
   );
 }
 
-export default GrowYourTeam;
+export default HomePageGrowYourTeam;

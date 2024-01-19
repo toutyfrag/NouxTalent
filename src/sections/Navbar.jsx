@@ -5,7 +5,7 @@ import { navigationLinks } from "../constants";
 import { NavBarMenu } from "../components";
 import { Link } from "react-router-dom";
 
-const NavContainer = () => {
+const Navbar = () => {
   const [removeComponents, setRemoveComponents] = useState(false);
 
   // Define spring animation for removal of the navbar container when scrolling
@@ -130,4 +130,4 @@ const NavContainer = () => {
   );
 };
 
-export default NavContainer;
+export default Navbar;

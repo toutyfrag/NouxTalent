@@ -15,7 +15,7 @@ const carouselWords = [
   "TESTING",
 ];
 
-function Hero() {
+function HomePageHero() {
   return (
     <section className="relative mb-20 mt-[8rem] mx-auto max-w-[112.5REM] px-8">
       {/* Background gradient */}
@@ -85,4 +85,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HomePageHero;

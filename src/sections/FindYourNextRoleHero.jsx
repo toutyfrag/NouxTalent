@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../assets";
 import { GenericActionButton } from "../components";
 
-function HeroFindARole() {
+function FindYourNextRoleHero() {
   return (
     <section className="mx-auto max-w-[112.5rem] px-8">
       <div
@@ -52,4 +52,4 @@ function HeroFindARole() {
   );
 }
 
-export default HeroFindARole;
+export default FindYourNextRoleHero;

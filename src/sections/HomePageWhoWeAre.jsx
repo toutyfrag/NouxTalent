@@ -5,7 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import servicesCards from "../constants";
 
-const WhoWeAre = () => {
+const HomePageWhoWeAre = () => {
   const [slideArray, setSlideArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const splideRef = useRef(null);
@@ -80,4 +80,4 @@ const WhoWeAre = () => {
 };
 
 // Export the WhoWeAre component as the default export
-export default WhoWeAre;
+export default HomePageWhoWeAre;
