@@ -21,12 +21,13 @@ import {
   GrowYourTeamIntro,
   GrowYourTeamSupport,
   GrowYourTeamSpecialities,
+  FormContactUs,
 } from "./sections";
 
 // Landing page
 function HomePage() {
   return (
-    <div className="mt-[8rem]">
+    <div className="mt-4">
       <Navbar />
       <HomePageHero />
       <HomePageWhoWeAre />
@@ -41,7 +42,7 @@ function HomePage() {
 
 function FindYourNextRolePage() {
   return (
-    <div className="mt-[8rem]">
+    <div className="mt-4">
       <Navbar />
       <FindYourNextRoleHero />
       <FindYourNextRoleIntro />
@@ -54,7 +55,7 @@ function FindYourNextRolePage() {
 
 function GrowYourTeamPage() {
   return (
-    <div className="mt-[8rem]">
+    <div className="mt-4">
       <Navbar />
       <GrowYourTeamHero />
       <GrowYourTeamIntro />
@@ -62,6 +63,15 @@ function GrowYourTeamPage() {
       <GrowYourTeamSpecialities />
       <BottomCTA />
       <Footer />
+    </div>
+  );
+}
+
+function ContactUs() {
+  return (
+    <div className="">
+      <Navbar />
+      <FormContactUs />
     </div>
   );
 }
@@ -75,6 +85,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/findyournextrole" element={<FindYourNextRolePage />} />
           <Route path="/growyourteam" element={<GrowYourTeamPage />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </Router>
     </div>

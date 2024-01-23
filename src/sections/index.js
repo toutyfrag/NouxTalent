@@ -13,3 +13,4 @@ export { default as GrowYourTeamHero } from "./GrowYourTeamHero";
 export { default as GrowYourTeamIntro } from "./GrowYourTeamIntro";
 export { default as GrowYourTeamSupport } from "./GrowYourTeamSupport";
 export { default as GrowYourTeamSpecialities } from "./GrowYourTeamSpecialities";
+export { default as FormContactUs } from "./FormContactUs";

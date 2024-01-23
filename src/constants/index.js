@@ -24,7 +24,7 @@ export const servicesCards = [
 export const navigationLinks = [
   {
     name: "Who we are",
-    href: "/Whoweare",
+    href: "/whoweare",
   },
   {
     name: "Grow your team",
@@ -34,7 +34,7 @@ export const navigationLinks = [
     name: "Find your next role",
     href: "/findyournextrole",
   },
-  { name: "Contact", href: "/Contact" },
+  { name: "contact", href: "/contact" },
 ];
 
 export default servicesCards;
