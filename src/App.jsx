@@ -22,6 +22,7 @@ import {
   GrowYourTeamSupport,
   GrowYourTeamSpecialities,
   FormContactUs,
+  FormSendCV,
 } from "./sections";
 
 // Landing page

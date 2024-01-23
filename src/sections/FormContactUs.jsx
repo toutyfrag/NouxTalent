@@ -19,7 +19,7 @@ const FormContactUs = () => {
             </h2>
             <div className="">
               <div className="flex gap-2 pb-4">
-                <div className="flex flex-col gap-4 flex-grow">
+                <div className="flex flex-col gap-2 flex-grow">
                   <label htmlFor="companyName">Enter name or company</label>
                   <input
                     placeholder="Lara from Noux"
