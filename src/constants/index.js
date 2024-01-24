@@ -37,4 +37,38 @@ export const navigationLinks = [
   { name: "contact", href: "/contact" },
 ];
 
+//Links in the navbar
+export const growYourTeamServices = [
+  {
+    service: "Discovery sessions",
+    detail:
+      "We conduct discovery sessions with you, enabling us to tailor our services ensuring support your unique needs",
+  },
+  {
+    service: "DE&I Strategy Support",
+    detail:
+      "We support you in developing inclusive hiring practices that foster diversity",
+  },
+  {
+    service: "Inclusive job descriptions & adverts",
+    detail:
+      "We support you in crafting job descriptions designed to attract a broad and diverse pool of talented candidates",
+  },
+  {
+    service: "Conducting unbiased interviews",
+    detail:
+      "Our commitment to fairness is reflected in unbiased interviews conducted with all candidates",
+  },
+  {
+    service: "Access to niche talent",
+    detail:
+      "Utilise our passive candidate pools, targeted recruitment campaigns, networking events, referrals and recommendations to access niche talent.",
+  },
+  {
+    service: "Events and networking",
+    detail:
+      "Join our regular events and expansive networks, designed for you to be a part of a community of like-minded people",
+  },
+];
+
 export default servicesCards;

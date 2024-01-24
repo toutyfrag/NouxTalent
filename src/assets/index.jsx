@@ -4,6 +4,7 @@ import event from "./images/event.png";
 import women from "./images/women.png";
 import womenSideView from "./images/womanSideView.png";
 import flower from "./images/flower.png";
+import typing from "./images/typing.png";
 
 export const images = {
   nouxLogo3D,
@@ -12,6 +13,7 @@ export const images = {
   women,
   womenSideView,
   flower,
+  typing,
 };
 
 export const icons = {

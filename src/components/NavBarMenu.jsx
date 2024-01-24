@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import NouxLogowhite from "../assets/images/nouxLogoWhite.svg?react";
 import { navigationLinks } from "../constants";
 const NavBarMenu = (nouxLogo, backGroundImage, navBarLinks) => {

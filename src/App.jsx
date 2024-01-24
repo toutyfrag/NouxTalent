@@ -23,6 +23,7 @@ import {
   GrowYourTeamSpecialities,
   FormContactUs,
   FormSendCV,
+  GrowYourTeamServices,
 } from "./sections";
 
 // Landing page
@@ -61,6 +62,7 @@ function GrowYourTeamPage() {
       <GrowYourTeamHero />
       <GrowYourTeamIntro />
       <GrowYourTeamSupport />
+      <GrowYourTeamServices />
       <GrowYourTeamSpecialities />
       <BottomCTA />
       <Footer />
