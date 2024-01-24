@@ -18,6 +18,7 @@ const FormSendCV = () => {
               Upload cv
             </h2>
             <div className="">
+              q
               <div className="flex gap-2 pb-4">
                 <div className="flex flex-col gap-2 flex-grow">
                   <label htmlFor="companyName">Enter name</label>

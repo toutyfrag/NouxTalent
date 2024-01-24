@@ -46,15 +46,9 @@ const GrowYourTeamServices = () => {
           sollicitudin. Nunc odio enim at.
         </p>
       </div>
-      <div className="border border-black border-opacity-30 rounded-3xl mx-40 grid grid-cols-2 grid-rows-1">
+      <div className="border border-black border-opacity-30 rounded-[32px] mx-40 flex justify-between">
         <div className="flex flex-col gap-6 p-8">{renderServices()}</div>
-        <div
-          className="bg-noux-purple rounded-r-3xl bg-center bg-cover"
-          style={{
-            backgroundImage: `url(${images.typing})`,
-          }}
-          alt="3D Logo Image"
-        ></div>
+        <img src={images.typing} alt="3D Logo Image" className="" />
       </div>
     </section>
   );
