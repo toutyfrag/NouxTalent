@@ -16,3 +16,5 @@ export { default as GrowYourTeamSpecialities } from "./GrowYourTeamSpecialities"
 export { default as FormContactUs } from "./FormContactUs";
 export { default as FormSendCV } from "./FormSendCV";
 export { default as GrowYourTeamServices } from "./GrowYourTeamServices";
+export { default as WhoWeAreHero } from "./WhoWeAreHero";
+export { default as WhoWeAreIntro } from "./WhoWeAreIntro";

@@ -24,6 +24,8 @@ import {
   FormContactUs,
   FormSendCV,
   GrowYourTeamServices,
+  WhoWeAreHero,
+  WhoWeAreIntro,
 } from "./sections";
 
 // Landing page
@@ -79,6 +81,21 @@ function ContactUs() {
   );
 }
 
+function WhoWeAre() {
+  return (
+    <div className="mt-28">
+      <Navbar />
+      <WhoWeAreHero />
+      <WhoWeAreIntro />
+      <GrowYourTeamSupport />
+      <GrowYourTeamServices />
+      <GrowYourTeamSpecialities />
+      <BottomCTA />
+      <Footer />
+    </div>
+  );
+}
+
 function App() {
   //
   return (
@@ -86,6 +103,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/whoweare" element={<WhoWeAre />} />
           <Route path="/findyournextrole" element={<FindYourNextRolePage />} />
           <Route path="/growyourteam" element={<GrowYourTeamPage />} />
           <Route path="/contact" element={<ContactUs />} />
