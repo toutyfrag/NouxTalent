@@ -37,7 +37,7 @@ const GrowYourTeamServices = () => {
   };
 
   return (
-    <section>
+    <section className="p-10 px-40">
       <div className="flex flex-col justify-center items-center text-center mb-10">
         <h2 className="text-[64px]">What sets us apart</h2>
         <p className="text-[#626262] text-[24px] leading-9">
@@ -46,9 +46,18 @@ const GrowYourTeamServices = () => {
           sollicitudin. Nunc odio enim at.
         </p>
       </div>
-      <div className="border border-black border-opacity-30 rounded-[32px] mx-40 flex justify-between">
-        <div className="flex flex-col gap-6 p-8">{renderServices()}</div>
-        <img src={images.typing} alt="3D Logo Image" className="" />
+      <div className="border border-black border-opacity-30 rounded-3xl flex justify-between relative">
+        <div className="flex flex-col gap-6 p-8 w-[60%]">
+          {renderServices()}
+        </div>
+        <div
+          className="bg-noux-purple rounded-r-3xl top-0 right-0 w-[40%] absolute bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${images.typing})`,
+            height: "100%",
+          }}
+          alt="3D Logo Image"
+        />
       </div>
     </section>
   );
