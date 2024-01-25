@@ -27,6 +27,7 @@ import {
   WhoWeAreHero,
   WhoWeAreIntro,
   WhoweAreCards,
+  WhoWeAreServices,
 } from "./sections";
 
 // Landing page
@@ -89,6 +90,7 @@ function WhoWeAre() {
       <WhoWeAreHero />
       <WhoWeAreIntro />
       <WhoweAreCards />
+      <WhoWeAreServices />
       <BottomCTA />
       <Footer />
     </div>

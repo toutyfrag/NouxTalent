@@ -19,3 +19,4 @@ export { default as GrowYourTeamServices } from "./GrowYourTeamServices";
 export { default as WhoWeAreHero } from "./WhoWeAreHero";
 export { default as WhoWeAreIntro } from "./WhoWeAreIntro";
 export { default as WhoweAreCards } from "./WhoweAreCards";
+export { default as WhoWeAreServices } from "./WhoWeAreServices";
