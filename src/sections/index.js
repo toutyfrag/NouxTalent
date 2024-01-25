@@ -18,3 +18,4 @@ export { default as FormSendCV } from "./FormSendCV";
 export { default as GrowYourTeamServices } from "./GrowYourTeamServices";
 export { default as WhoWeAreHero } from "./WhoWeAreHero";
 export { default as WhoWeAreIntro } from "./WhoWeAreIntro";
+export { default as WhoweAreCards } from "./WhoweAreCards";

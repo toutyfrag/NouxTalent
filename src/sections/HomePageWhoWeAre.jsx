@@ -71,6 +71,8 @@ const HomePageWhoWeAre = () => {
               cardHeading={servicesCards[index].heading}
               cardSubHeading={servicesCards[index].subheading}
               bgColor={`${colors[index % colors.length]}`}
+              cardHeight={"h-[559px]"}
+              cardHeadingSize={"text-[4rem]"}
             />
           </SplideSlide>
         ))}

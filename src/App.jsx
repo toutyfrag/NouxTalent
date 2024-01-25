@@ -26,6 +26,7 @@ import {
   GrowYourTeamServices,
   WhoWeAreHero,
   WhoWeAreIntro,
+  WhoweAreCards,
 } from "./sections";
 
 // Landing page
@@ -87,9 +88,7 @@ function WhoWeAre() {
       <Navbar />
       <WhoWeAreHero />
       <WhoWeAreIntro />
-      <GrowYourTeamSupport />
-      <GrowYourTeamServices />
-      <GrowYourTeamSpecialities />
+      <WhoweAreCards />
       <BottomCTA />
       <Footer />
     </div>
