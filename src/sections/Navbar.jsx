@@ -77,7 +77,8 @@ const Navbar = () => {
     return navigationLinks.map((navLink, index) => (
       <li
         key={index}
-        className="hover:bg-noux-violet text-noux-dark-purple rounded-3xl px-4 py-2 "
+        //Arbitrary media query to hide the links on mobile. Not used tailwind breakpoint because it will not be used anywhere else
+        className="hover:bg-noux-violet text-noux-dark-purple rounded-3xl px-4 py-2 hidden [@media(min-width:1080px)]:block"
       >
         <Link to={navLink.href}>{navLink.name}</Link>
       </li>
