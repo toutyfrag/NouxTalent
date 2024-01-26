@@ -3,7 +3,7 @@ import { animated, useSpring } from "react-spring"; // For the removal of the na
 import { navigationLinks } from "../constants"; // Links for the navbar and the side menu
 import { NavBarMenu } from "../components"; // Side menu
 import { Link } from "react-router-dom"; // For the rounting of the links
-import { ReactSVG } from "react-svg"; // Import SVG
+import NouxLogo from "../assets/images/nouxLogo.svg?react";
 
 const Navbar = () => {
   // --------------------------------------------------------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ const Navbar = () => {
   // Define spring animation for removal of the navbar container when scrolling
   const removalSpring = useSpring({
     opacity: removeComponents ? 0 : 1,
-    transform: removeComponents ? "translateY(-3.125)" : "translateY(0)",
+    transform: removeComponents ? "translateY(-3.125rem)" : "translateY(0)",
     config: { duration: 300 },
   });
 
@@ -75,7 +75,10 @@ const Navbar = () => {
   // Render links from looping navigationLinks
   const renderNavbarLinks = () => {
     return navigationLinks.map((navLink, index) => (
-      <li key={index} className="hover:bg-noux-violet rounded-3xl px-4 py-2">
+      <li
+        key={index}
+        className="hover:bg-noux-violet text-noux-dark-purple rounded-3xl px-4 py-2 "
+      >
         <Link to={navLink.href}>{navLink.name}</Link>
       </li>
     ));
@@ -88,13 +91,13 @@ const Navbar = () => {
         className={`fixed left-0 top-0 right-0 z-10`}
       >
         <section className="mt-4 mx-8">
-          <nav className="flex justify-between items-center rounded-[3rem] h-[4.5rem] bg-[#F6F1FD] pl-6 pr-2 text-2xl font-normal max-w-[112.5rem] mx-auto">
+          <nav className="flex justify-between items-center pl-6 pr-2 text-2xl font-normal rounded-[3rem] h-[4.5rem] bg-noux-white max-w-[112.5rem] mx-auto">
             <div
               className={`${
                 isMenuExpanded
                   ? "[clip-path:circle(250rem_at_100%_-15%)]"
                   : "[clip-path:circle(0rem_at_100%_-15%)]"
-              } z-20 absolute top-0 left-0 right-0 bg-[#110326] transition-all transform duration-1000 flex justify-center items-center`}
+              } z-20 absolute top-0 left-0 right-0 bg-noux-dark-purple transition-all transform duration-1000 flex justify-center items-center`}
               //   Inline css to remove transition on resizing window to affect only the height
               style={{
                 height: "100vh",
@@ -104,9 +107,9 @@ const Navbar = () => {
               <NavBarMenu />
             </div>
             <Link to="/">
-              <ReactSVG src="src/assets/images/nouxlogo.svg" />
+              <img src={NouxLogo} alt="Noux Logo" />
             </Link>
-            <ul className={"flex gap-8"}>{renderNavbarLinks()}</ul>
+            <ul className={"flex gap-"}>{renderNavbarLinks()}</ul>
             <div>
               <button
                 className={`px-4 py-2 flex items-center justify-center gap-3 relative z-50 transition-all transform duration-1000 group ${
@@ -116,14 +119,14 @@ const Navbar = () => {
               >
                 <div className="flex flex-col">
                   <div
-                    className={`bg-black h-[0.25rem] w-[2rem] group-duration-4000 my-[0.188rem] transition-all transform duration-1000 rounded-3xl ${
+                    className={`bg-noux-dark-purple h-[0.25rem] w-[2rem] group-duration-4000 my-[0.188rem] transition-all transform duration-1000 rounded-3xl ${
                       isMenuExpanded
                         ? "bg-white rotate-45 translate-y-[0.3rem]"
                         : ""
                     }`}
                   />
                   <div
-                    className={`bg-black h-[0.25rem] w-[2rem] my-[0.188rem] transition-all transform duration-1000 rounded-3xl ${
+                    className={`bg-noux-dark-purple h-[0.25rem] w-[2rem] my-[0.188rem] transition-all transform duration-1000 rounded-3xl ${
                       isMenuExpanded
                         ? "bg-white -rotate-45 -translate-y-[0.3rem]"
                         : ""
@@ -137,10 +140,6 @@ const Navbar = () => {
       </animated.div>
     </section>
   );
-
-  function newFunction() {
-    return useState(0);
-  }
 };
 
 export default Navbar;

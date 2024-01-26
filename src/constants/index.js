@@ -37,6 +37,22 @@ export const navigationLinks = [
   { name: "contact", href: "/contact" },
 ];
 
+export const navigationLinksMenu = [
+  {
+    name: "Who we are",
+    href: "/whoweare",
+  },
+  {
+    name: "Grow your team",
+    href: "/growyourteam",
+  },
+  {
+    name: "Find your next role",
+    href: "/findyournextrole",
+  },
+  { name: "contact", href: "/contact" },
+];
+
 //Links in the navbar
 export const growYourTeamServices = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactSVG } from "react-svg";
+import SupportIcon from "../assets/images/supportIcon.svg?react";
 
 const WhoWeAreServices = () => {
   return (
@@ -30,7 +30,7 @@ const WhoWeAreServices = () => {
           <div className="grid grid-cols-4 grid-rows-2 gap-[32px] justify-items-center">
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -38,7 +38,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -46,7 +46,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -54,7 +54,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -62,7 +62,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -70,7 +70,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -78,7 +78,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
@@ -86,7 +86,7 @@ const WhoWeAreServices = () => {
             </div>
             <div className="w-[100%] h-[100%] p-4 rounded-3xl  border border-black border-opacity-30 flex flex-col justify-center gap-2">
               <div className="flex items-center justify-center">
-                <ReactSVG src="src/assets/images/supportIcon.svg" />
+                <img src={SupportIcon} alt="Support Icon" />
               </div>
               <p className="text-center text-[#626262] text-2xl leading-9">
                 We partner with you
