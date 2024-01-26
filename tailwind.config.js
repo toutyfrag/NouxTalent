@@ -8,6 +8,7 @@ export default {
       white: "#FFFFFF",
       black: "#000000",
       "noux-gray": "#D9D9D9",
+      "noux-violet": "#D4DBFF",
     },
   },
   plugins: [],

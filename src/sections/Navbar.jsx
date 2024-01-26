@@ -56,9 +56,8 @@ const Navbar = () => {
   //Keep track of the menu state
   const [isMenuExpanded, setIsMenuExpanded] = useState(false);
   //Keep track of the link hovered in the side menu
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // set the menu state to the opposite of what it is
+  // set the Hamburger state to the opposite of what it is
   const handleHamburgerToggle = () => {
     setIsMenuExpanded(!isMenuExpanded);
   };
@@ -72,10 +71,11 @@ const Navbar = () => {
     }
   }, [isMenuExpanded]);
 
+  // --------------------------------------------------------------------------------------------------------------------------------
   // Render links from looping navigationLinks
   const renderNavbarLinks = () => {
     return navigationLinks.map((navLink, index) => (
-      <li key={index}>
+      <li key={index} className="hover:bg-noux-violet rounded-3xl px-4 py-2">
         <Link to={navLink.href}>{navLink.name}</Link>
       </li>
     ));
@@ -137,6 +137,10 @@ const Navbar = () => {
       </animated.div>
     </section>
   );
+
+  function newFunction() {
+    return useState(0);
+  }
 };
 
 export default Navbar;
