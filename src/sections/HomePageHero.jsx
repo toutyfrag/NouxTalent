@@ -17,7 +17,7 @@ const carouselWords = [
 
 function HomePageHero() {
   return (
-    <section className="relative mb-20 mt-[8rem] mx-auto max-w-[112.5REM] px-8">
+    <section className="relative mb-20 mt-[8rem] mx-auto max-w-[112.5REM] px-4 md:px-8">
       {/* Background gradient */}
       <div className="w-[400px] h-[400px] absolute top-[150px] right-[-200px] bg-gradient-to-r from-[#6300FF] to-[#5E00FF] rounded-full blur-[200px] z-[0] opacity-100" />
 
@@ -67,7 +67,10 @@ function HomePageHero() {
         }}
         alt="3D Logo Image"
       >
-        <Marquee className="text-[120px] font-extrabold" loop={0}>
+        <Marquee
+          className="text-[100px] md:text-[120px] font-extrabold"
+          loop={0}
+        >
           {carouselWords.map((word, index) => (
             <div
               key={index}
