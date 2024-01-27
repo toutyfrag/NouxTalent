@@ -37,19 +37,19 @@ const HomePageWhoWeAre = () => {
   };
 
   return (
-    <section className="pb-[5rem] relative mx-auto max-w-[112.5rem] pl-8">
+    <section className="pb-[5rem] relative mx-auto max-w-[112.5rem] pl-4 md:pl-8">
       <div className="w-[400px] h-[400px] absolute bottom-0 left-0 bg-gradient-to-r from-[#6300FF] to-[#5E00FF] rounded-full blur-[200px] z-[0] opacity-100" />
 
       {/* Apply motion to the list of cards */}
       <div className="flex items-end justify-between">
-        <h2 className="text-[4rem] text-black">So who are we?</h2>
-        <div className="flex gap-2 pb-5 pr-8">
+        <h2 className="section-header">So who are we?</h2>
+        <div className="flex gap-2 pb-5 pr-4 md:pr-8">
           {slideArray.map((slide, index) => (
             <button
               key={index}
               className={`h-2 rounded ${
                 index === currentIndex
-                  ? "bg-black w-16 transition-all duration-200"
+                  ? "w-16 transition-all duration-200 bg-noux-dark-purple"
                   : "w-8 bg-noux-gray transition-all duration-200"
               } `}
               onClick={() => handlePaginationClick(index)}

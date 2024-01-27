@@ -4,7 +4,7 @@ import { images } from "../assets";
 
 const HomePageBento = () => {
   return (
-    <section className="relative mx-auto max-w-[112.5rem] px-8">
+    <section className="relative mx-auto max-w-[112.5rem] px-4 md:px-8">
       <div className="grid grid-cols-4 grid-rows-5 gap-4 h-[552px] mt-[104px] z-10">
         <div className="row-span-4 bg-[#D4DBFF] rounded-3xl p-6 flex flex-col">
           <div className="flex flex-col flex-grow gap-4">

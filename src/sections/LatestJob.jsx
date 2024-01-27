@@ -46,12 +46,12 @@ const LatestJob = () => {
   };
 
   return (
-    <section className="flex flex-col justify-center relative mx-auto max-w-[112.5rem] pl-8">
+    <section className="flex flex-col justify-center relative mx-auto max-w-[112.5rem] pl-4 md:pl-8">
       <div className="w-[400px] h-[400px] absolute bottom-[-200px] left-0 bg-gradient-to-r from-[#6300FF] to-[#5E00FF] rounded-full blur-[200px] opacity-100" />
       <div className="">
-        <div className="flex flex-col justify-center items-center mx-auto max-w-[112.5rem]">
+        <div className="flex flex-col justify-center items-center mx-auto max-w-[112.5rem] pr-4 md:pr-8">
           <div className="flex flex-col justify-center items-center max-w-[784px] gap-6">
-            <h2 className="text-[4rem]">Find your next role</h2>
+            <h2 className="section-header">Find your next role</h2>
             <p className="text-[1.5rem] text-[#626262] leading-10 text-center">
               Supporting you through every step of the process. Explore our
               roles and join a community dedicated to fostering innovation

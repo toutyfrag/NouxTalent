@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .section-header {
+    @apply text-[3.5rem] md:text-[4rem] text-noux-dark-purple;
+  }
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }

@@ -4,7 +4,7 @@ import { GenericActionButton } from "../components";
 
 function HomePageGrowYourTeam() {
   return (
-    <section className="pb-[5rem] mx-auto max-w-[112.5rem] px-8">
+    <section className="pb-[5rem] mx-auto max-w-[112.5rem] px-4 md:px-8">
       <div
         className="w-full h-[688px] bg-cover object-cover bg-center rounded-2xl text-[#FFFFFF] flex flex-col items-center justify-center"
         style={{ backgroundImage: `url(${images.nouxLogo3D})` }}
