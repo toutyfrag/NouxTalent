@@ -26,17 +26,17 @@ function HomePageHero() {
         {/* Top div headings */}
 
         <h2
-          className="text-[3rem] text-black leading-[2rem] tracking-[0.010rem]"
+          className="text-[3rem] text-black leading-[4rem] tracking-[0.010rem]"
           aria-label="Home page secondary heading"
         >
           Driving change, one hire at a time
         </h2>
 
         <h1
-          className="text-[2rem] leading-[1.25] text-[#626262]"
+          className="text-[2rem] leading-[1.25] text-[#626262] max-w-[40rem]"
           aria-label="Home page heading"
         >
-          Supporting founders and leaders to build <br />
+          Supporting founders and leaders to build
           <span className="text-[#6300FF] font-semibold"> diverse</span> teams,
           shaping the
           <span className="text-[#6300FF] font-semibold"> future</span> of tech
