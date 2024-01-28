@@ -28,7 +28,7 @@ function GrowYourTeamHero() {
               <GenericActionButton
                 backgroundColor="bg-[#6300FF]"
                 textColor="text-[white]"
-                textContent="What we offer"
+                textContent="Contact us"
                 border="none"
               />
             </div>
@@ -49,18 +49,15 @@ function GrowYourTeamHero() {
           <p className="text-[64px] font-extrabold">
             70<span className="text-[32px]">%</span>
           </p>
-          <p>
-            of companies are more likely to capture new markets with diverse
-            teams.
-          </p>
+          <p>Diverse teams are 70% more likely to capture new markets</p>
         </div>
         <div className="flex justify-between items-center gap-4 rounded-3xl bg-[#D9D9D9] p-4">
           <p className="text-[64px] font-extrabold">
             35<span className="text-[32px]">%</span>
           </p>
           <p>
-            Increase in financial returns than their respective non-diverse
-            counterparts.
+            Diverse companies are 35% more likely to experience greater
+            financial returns than their non-diverse counterparts
           </p>
         </div>
       </div>

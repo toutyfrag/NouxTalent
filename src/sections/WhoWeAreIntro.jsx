@@ -7,18 +7,17 @@ const WhoWeAreIntro = () => {
       <div className="grid grid-cols-2 grid-rows-1 gap-6 px-4">
         <div>
           <h2 className="text-[64px] leading-[80px] font-medium pb-6">
-            What you need to <br /> know{" "}
-            <span className="text-noux-purple">about us</span>
+            What you need to <br /> know
+            <span className="text-noux-purple font-semibold"> about us</span>
           </h2>
           <div className="text-2xl leading-9 font-light flex flex-col gap-8">
             <p>
-              We have helped hundreds of companies to build great <br /> teams,
-              grown incredible communities and built <br /> unrivalled networks.
-            </p>
-            <p>
-              Our passion is to recruit with purpose, working in <br />{" "}
-              partnership with innovative companies to help drive <br />{" "}
-              positive change.
+              With almost two decades experience in the tech recruitment
+              industry, we really know our stuff. We’ve helped hundreds of
+              companies to build great teams, grown incredible communities and
+              built unrivalled networks. Our passion is to recruit with purpose,
+              working in partnership with innovative companies to help drive
+              change.
             </p>
           </div>
         </div>
@@ -43,18 +42,18 @@ const WhoWeAreIntro = () => {
         />
         <div className="pl-16">
           <h2 className="text-[64px] leading-[80px] font-medium pb-6">
-            What you need to <br /> know{" "}
-            <span className="text-noux-purple">about us</span>
+            Our <span className="text-noux-purple font-semibold">mission </span>
+            is clear
           </h2>
           <div className="text-2xl leading-9 font-light flex flex-col gap-8">
             <p>
-              We have helped hundreds of companies to build great <br /> teams,
-              grown incredible communities and built <br /> unrivalled networks.
+              To help diversify the tech space by supporting our clients in
+              building diverse teams that drive innovation, shaping the future
+              of the tech talent.
             </p>
             <p>
-              Our passion is to recruit with purpose, working in <br />{" "}
-              partnership with innovative companies to help drive <br />{" "}
-              positive change.
+              Our commitment to DE&I runs through every conversation, decision,
+              and opportunity that we create.
             </p>
           </div>
         </div>

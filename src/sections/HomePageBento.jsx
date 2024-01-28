@@ -12,9 +12,9 @@ const HomePageBento = () => {
               Our 10 point checklist to help you get hired!
             </div>
             <div className="text-slate-900 text-base font-medium">
-              This isn’t any old list to help you take your next steps. Our free
-              no BS guide pulled together with 25yrs experience refining what
-              works into a hiring a free resource for you.
+              This isn’t just any list, it's a free, downloadable guide crafted
+              with 20 years of experience, refining what truly works and how to
+              secure the job offer you desire
             </div>
           </div>
           <div>
@@ -33,16 +33,15 @@ const HomePageBento = () => {
             Tech events
           </div>
           <div className="text-slate-900 text-base font-medium leading-normal">
-            We host a number of events throughout the year with keynote
-            speakers. Join likeminded people, hear from industry leading experts
-            in the tech world.
+            We host a variety of events throughout the year. Join a community of
+            like-minded individuals, listen to insights from industry-leading
+            experts, hear inspiring stories and network with great people.
           </div>
         </div>
         <div className="col-span-2 row-span-5 bg-[#D4DBFF] rounded-3xl p-6 flex flex-col gap-6">
           <div className="flex justify-between items-center">
             <div className="w-[438px] text-slate-900 text-[32px] font-medium font-['Plus Jakarta Sans']">
-              Your first thought leadership article title will go here in this
-              space with concise copy.
+              Elevate your brand to attract diverse talent
             </div>
             <GenericActionButton
               backgroundColor="bg-inherit"

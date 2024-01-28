@@ -20,10 +20,8 @@ function WhoweAreHero() {
           <div className="flex flex-col flex-grow justify-end h-full gap-4">
             <h2 className="text-[80px] mb-[-16px]">We are Noux</h2>
             <p className="text-2xl">
-              A tech recruitment partner on a mission to help diversify the tech{" "}
-              <br />
-              sector. With two decades experience in the tech recruitment <br />
-              industry, we really know our stuff.
+              A Tech Recruitment partner on a mission to help diversity the tech
+              sector
             </p>
             <div>
               <GenericActionButton

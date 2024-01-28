@@ -8,11 +8,11 @@ const GrowYourTeamSupport = () => {
           <span className="text-noux-purple">Tailored</span> support at every
           step
         </h2>
-        <p>
-          We're committed to supporting you through every step of our diversity
-          focused recruitment process. Our goal is to deliver talent that aligns
-          seamlessly with your unique needs. From discovery sessions to
-          candidate onboarding, we're with you all the way.
+        <p className="">
+          We’re committed to supporting you though every step of the recruitment
+          process. Our goal is to deliver talent that aligns with your unique
+          needs. From discovery sessions to onboarding, we’re with you all the
+          way
         </p>
       </div>
       <div className="grid grid-cols-2 grid-rows-2 gap-6">
@@ -31,10 +31,10 @@ const GrowYourTeamSupport = () => {
             03
           </div>
           <div className="flex flex-col gap-2 w-[75%]">
-            <h2 className="text-2xl font-bold">Comprehensive understanding</h2>
+            <h2 className="text-2xl font-bold">End-to-end Support</h2>
             <div className="bg-noux-purple h-1 w-full rounded-3xl"></div>
             <p>
-              As trusted partners, we tailor our approach to your unique needs.
+              From sourcing to onboarding, we support you through the journey.
             </p>
           </div>
         </div>
@@ -43,10 +43,10 @@ const GrowYourTeamSupport = () => {
             02
           </div>
           <div className="flex flex-col gap-2 w-[75%]">
-            <h2 className="text-2xl font-bold">End-to-end Support</h2>
+            <h2 className="text-2xl font-bold">Comprehensive understanding</h2>
             <div className="bg-noux-purple h-1 w-full rounded-3xl"></div>
             <p>
-              From sourcing to onboarding, we support you through the journey.
+              As trusted partners, we tailor our approach to your unique needs.
             </p>
           </div>
         </div>

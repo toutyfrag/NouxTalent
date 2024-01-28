@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../assets";
 import { GenericActionButton } from "../components";
+import { Link } from "react-router-dom"; // For the rounting of the links
 
 function HomePageGrowYourTeam() {
   return (
@@ -13,15 +14,18 @@ function HomePageGrowYourTeam() {
         <div className="flex flex-col max-w-[700px] items-center gap-6">
           <h2 className="text-[4rem]">Grow your team</h2>
           <p className="text-[1.5rem] text-center">
-            Aiding clients in cultivating teams with diverse perspectives. We
-            believe in innovation fueled by diversity, keeping your
+            We firmly believe that diverse teams lead to great outcomes, keeping
+            your business at the forefront of innovation. Whether you're seeking
+            a single hire or to scale a whole team, we are here to support you
           </p>
-          <GenericActionButton
-            backgroundColor="bg-[#FFFFFF]"
-            textColor="text-[black]"
-            textContent="Grow Your Team"
-            border="border-solid border-[#110326]"
-          />
+          <Link to="/growyourteam">
+            <GenericActionButton
+              backgroundColor="bg-[#FFFFFF]"
+              textColor="text-[black]"
+              textContent="Grow your team"
+              border="border-solid border-[#110326]"
+            />
+          </Link>
         </div>
       </div>
     </section>

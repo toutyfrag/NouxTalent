@@ -1,12 +1,12 @@
 export const servicesCards = [
   {
+    heading: "We are redefining tech recruitmentf",
+    subheading: "by embedding DE&I into everything that we do",
+  },
+  {
     heading: "Not just connecting talent with companies",
     subheading:
       "We’re advocates for change, committed to creating opportunities for underrepresented voices",
-  },
-  {
-    heading: "We are redefining tech recruitment",
-    subheading: "By embedding DE&I into every step of our recruitment process",
   },
   {
     heading: "Beyond transactional recruiters",
@@ -17,6 +17,33 @@ export const servicesCards = [
     heading: "Creating more than just connections",
     subheading:
       "We’re building a community, a shared space to exchange experiences, ask questions, and champion initiatives",
+  },
+];
+
+export const whoWeAreValueCards = [
+  {
+    heading: "Be Real",
+    subheading:
+      "No masks here. We're upfront, honest, and genuine, creating connections built on trust",
+  },
+  {
+    heading: "Be Inclusive",
+    subheading:
+      " Everyone's welcome. We value differences, ensuring every voice is heard",
+  },
+  {
+    heading: "Be Empowering",
+    subheading: " Our mission is to fuel your success",
+  },
+  {
+    heading: "Be Collaborative",
+    subheading:
+      "We're all about teamwork, diverse ideas, and partnerships beyond business",
+  },
+  {
+    heading: "Be Ambitious",
+    subheading:
+      "Embrace your inner go-getter, set bold goals, fuel determination, let ambition drive you",
   },
 ];
 
@@ -52,7 +79,7 @@ export const growYourTeamServices = [
   {
     service: "Inclusive job descriptions & adverts",
     detail:
-      "We support you in crafting job descriptions designed to attract a broad and diverse pool of talented candidates",
+      "We support you in crafting job descriptions & adverts designed to attract a broad and diverse pool of talented candidates",
   },
   {
     service: "Conducting unbiased interviews",

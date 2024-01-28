@@ -15,19 +15,20 @@ function GrowYourTeamIntro() {
         <div className="text-white flex flex-col justify-center items-center max-w-[784px] text-center gap-6">
           <h2 className="text-[64px] leading-[80px]">
             Recruit
-            <span className="font-bold text-noux-purple">exceptional</span>{" "}
+            <span className="font-bold text-noux-purple">exceptional</span>
             <br />
             talent
           </h2>
           <div className="text-[24px] leading-10 font-light">
             <p>
-              Whether you're seeking a single hire or planning a team expansion,
-              Noux is here to help.
+              Whether you're seeking a single hire or to scale a whole team, we
+              are here to support you. We don’t have a one size fits all
+              solution and appreciate that every business has unique needs.
             </p>
             <br />
             <p>
-              Our partnership approach means that we can immerse ourselves in
-              your business to truly understand your needs, culture and values.
+              Our partnership approach enables us to immerse ourselves in your
+              business and truly understand what you are looking to achieve.
             </p>
           </div>
           <GenericActionButton

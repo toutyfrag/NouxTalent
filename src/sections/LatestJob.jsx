@@ -89,15 +89,15 @@ const LatestJob = () => {
             ))}
           </Splide>
         </div>
-        <div className="flex flex-col items-end mt-8 pr-8">
+        <div className="flex flex-col items-end mt-8 pr-4 md:pr-8">
           <div className="flex gap-2">
             {slideArray.map((slide, index) => (
               <button
                 key={index}
                 className={`h-2 rounded ${
                   index === currentIndex
-                    ? "bg-black w-16 transition-all duration-200"
-                    : "w-8 bg-noux-gray transition-all duration-200"
+                    ? "w-10 md:w-12 lg:w-16 transition-all duration-200 bg-noux-dark-purple"
+                    : "w-5 md:w-6 lg:w-8 bg-noux-gray transition-all duration-200"
                 } `}
                 onClick={() => handleButtonClick(index)}
               />

@@ -3,9 +3,11 @@ import { WhatWeDoCard } from "../components";
 import { useState, useEffect, useRef } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import whoWeAreValueCards from "../constants";
 import servicesCards from "../constants";
 
 const WhoWeAreCards = () => {
+  console.log(whoWeAreValueCards);
   const [slideArray, setSlideArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const splideRef = useRef(null);
@@ -56,12 +58,12 @@ const WhoWeAreCards = () => {
         onMove={handleSlideMoved}
         aria-label="My Favorite Images"
       >
-        {servicesCards.map((jobCard, index) => (
+        {whoWeAreValueCards.map((jobCard, index) => (
           <SplideSlide key={index}>
             <WhatWeDoCard
               cardIndex={`0${index + 1}`}
-              cardHeading={servicesCards[index].heading}
-              cardSubHeading={servicesCards[index].subheading}
+              cardHeading={whoWeAreValueCards[index].heading}
+              cardSubHeading={whoWeAreValueCards[index].subheading}
               bgColor={`${colors[index % colors.length]}`}
               cardHeight={"h-[559px]"}
               cardHeadingSize={"text-[4rem]"}

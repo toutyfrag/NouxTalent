@@ -25,35 +25,35 @@ function HomePageHero() {
       <div className="flex flex-col gap-[1.5rem] mb-10">
         {/* Top div headings */}
 
-        <h2
+        <h1
           className="text-[3rem] text-black leading-[4rem] tracking-[0.010rem]"
           aria-label="Home page secondary heading"
         >
-          Driving change, one hire at a time
-        </h2>
+          Diversifying Tech Recruitment
+        </h1>
 
-        <h1
+        <h2
           className="text-[2rem] leading-[1.25] text-[#626262] max-w-[40rem]"
           aria-label="Home page heading"
         >
-          Supporting founders and leaders to build
-          <span className="text-[#6300FF] font-semibold"> diverse</span> teams,
-          shaping the
-          <span className="text-[#6300FF] font-semibold"> future</span> of tech
-          talent
-        </h1>
+          Supporting you to build{" "}
+          <span className="text-noux-purple font-semibold">diverse</span> and
+          innovative
+          <span className="text-noux-purple font-semibold"> teams</span>,
+          shaping the future of tech talent
+        </h2>
 
         {/* Hero buttons */}
         <div className="flex gap-[1.5rem]">
           <GenericActionButton
             backgroundColor="bg-[#6300FF]"
             textColor="text-[white]"
-            textContent="Grow Your Team"
+            textContent="Grow your team"
             border="none"
           />
           <GenericActionButton
             backgroundColor="bg-inherit"
-            textContent="Find Your Next Role"
+            textContent="Find your next role"
             border="border-solid border-2 border-[#110326]"
           />
         </div>
@@ -70,6 +70,7 @@ function HomePageHero() {
         <Marquee
           className="text-[100px] md:text-[120px] font-extrabold"
           loop={0}
+          speed={70}
         >
           {carouselWords.map((word, index) => (
             <div

@@ -1,5 +1,4 @@
 import React from "react";
-import { icons } from "../assets";
 
 const WhatWeDoCard = ({
   bgColor,
@@ -11,7 +10,7 @@ const WhatWeDoCard = ({
 }) => {
   return (
     <div
-      className={`w-[54rem] ${cardHeight} px-[1rem] py-[2rem] ${bgColor} rounded-3xl flex flex-col-reverse leading-tight`}
+      className={`w-[33rem] md:w-[40rem] lg:w-[54rem] ${cardHeight} px-[1rem] py-[2rem] ${bgColor} rounded-3xl flex flex-col-reverse leading-tight`}
     >
       <div className="flex flex-col gap-[8px]">
         <h2 className={`${cardHeadingSize}`}>{cardHeading}</h2>

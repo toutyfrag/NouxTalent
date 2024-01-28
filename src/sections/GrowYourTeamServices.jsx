@@ -41,9 +41,8 @@ const GrowYourTeamServices = () => {
       <div className="flex flex-col justify-center items-center text-center mb-10">
         <h2 className="text-[64px]">What sets us apart</h2>
         <p className="text-[#626262] text-[24px] leading-9">
-          Lorem ipsum dolor sit amet consectetur. Ac ut et in eget blandit{" "}
-          <br />
-          sollicitudin. Nunc odio enim at.
+          We offer a range of services and can tailor these to support your
+          unique needs
         </p>
       </div>
       <div className="border border-black border-opacity-30 rounded-3xl flex justify-between relative">

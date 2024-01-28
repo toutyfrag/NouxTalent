@@ -17,6 +17,9 @@ const GrowYourTeamSpecialities = () => {
     pagination: false, // Disable default pagination
     arrows: false,
     drag: true,
+    autoplay: true,
+    pauseOnHover: true,
+    interval: 3000,
   };
 
   const handleSlideMoved = (splide, newIndex) => {
@@ -39,6 +42,10 @@ const GrowYourTeamSpecialities = () => {
     "Data and AI",
     "DevOps",
     "Product",
+    "Testing and QA",
+    "Project Delivery",
+    "Digital",
+    "Tech Leadership",
   ];
 
   const handleButtonClick = (index) => {
@@ -58,15 +65,9 @@ const GrowYourTeamSpecialities = () => {
       <div>
         <div className="flex justify-center flex-col items-center text-center">
           <h2 className="text-[64px]">
-            Our <span className="font-bold text-noux-purple">specialities</span>
+            What we are <span className="font-bold text-noux-purple">good</span>{" "}
+            at
           </h2>
-          <p className="text-2xl font-light text-[#626262] leading-10">
-            Noux has a long-standing partnership with a trusted client based in
-            <br />
-            Leeds. Currently going through rapid growth and looking for a lead
-            <br />
-            engineer to spearhead change.
-          </p>
         </div>
         <div className="mt-10">
           <Splide

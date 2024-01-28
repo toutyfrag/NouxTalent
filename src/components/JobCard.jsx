@@ -4,7 +4,7 @@ import { GenericActionButton } from "../components";
 const JobCard = ({ bgColor }) => {
   return (
     <div
-      className={`h-[311px] w-[592px] ${bgColor} rounded-3xl flex flex-col justify-end p-[1rem]`}
+      className={`h-[311px] w-[30rem] md:w-[37.5rem] ${bgColor} rounded-3xl flex flex-col justify-end p-[1rem]`}
     >
       <div className="flex flex-col gap-2">
         <h3 className="text-[2.5rem]">Lead DevOps Engineer</h3>

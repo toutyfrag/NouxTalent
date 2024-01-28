@@ -34,7 +34,7 @@ const FindYourNextRoleIntro = () => {
               EXPERIENCE
             </p>
             <p className="text-[88px] font-extrabold leading-14 h-[100px] flex items-center">
-              25y
+              20y
             </p>
           </div>
           <div>icon</div>
@@ -53,10 +53,10 @@ const FindYourNextRoleIntro = () => {
         <div className="flex items-center justify-between gap-[24px] px-[32px] py-[18px] rounded-3xl border-[1px] border-[#D4CDDD] relative">
           <div className="flex flex-col gap-5">
             <p className="text-2xl font-extrabold text-black text-opacity-40 mb-[-25px]">
-              EXPERIENCE
+              COMMITED
             </p>
             <p className="text-[88px] font-extrabold leading-14 h-[100px] flex items-center">
-              25y
+              100%
             </p>
           </div>
           <div>icon</div>

@@ -7,7 +7,7 @@ const Footer = () => {
     <section className="bg-[#040118] text-white pt-40 pb-20 mx-auto max-w-[112.5rem] px-8">
       <div className="">
         <div className="flex flex-col gap-4 mb-16">
-          <h2 className="text-4xl font-thin">Looking for something NOUX ?</h2>
+          <h2 className="text-4xl font-thin">Be part of something Noux</h2>
           <h2 className="text-4xl font-semibold">Let's talk</h2>
         </div>
         <div className="grid grid-cols-4 grid-rows-1 gap-4">

@@ -6,7 +6,7 @@
 
 @layer components {
   .section-header {
-    @apply text-[3.5rem] md:text-[4rem] text-noux-dark-purple;
+    @apply text-[3.5rem] md:text-[3.75rem] lg:text-[4rem] text-noux-dark-purple;
   }
 }
 

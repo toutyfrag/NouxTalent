@@ -49,8 +49,8 @@ const HomePageWhoWeAre = () => {
               key={index}
               className={`h-2 rounded ${
                 index === currentIndex
-                  ? "w-16 transition-all duration-200 bg-noux-dark-purple"
-                  : "w-8 bg-noux-gray transition-all duration-200"
+                  ? "w-10 md:w-12 lg:w-16 transition-all duration-200 bg-noux-dark-purple"
+                  : "w-5 md:w-6 lg:w-8 bg-noux-gray transition-all duration-200"
               } `}
               onClick={() => handlePaginationClick(index)}
             />
