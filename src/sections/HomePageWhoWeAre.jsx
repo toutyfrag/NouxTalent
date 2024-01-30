@@ -8,6 +8,8 @@ import servicesCards from "../constants";
 const HomePageWhoWeAre = () => {
   const [slideArray, setSlideArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [lastCard, setLastCard] = useState(false);
+
   const splideRef = useRef(null);
   const colors = ["bg-[#E0CCFF]", "bg-[#D5DBFF]", "bg-[#F2F2F2]"];
 
@@ -37,7 +39,11 @@ const HomePageWhoWeAre = () => {
   };
 
   return (
-    <section className="pb-[5rem] relative mx-auto max-w-[112.5rem] pl-4 md:pl-8">
+    <section
+      className={`pb - [5rem] relative mx-auto max-w-[112.5rem] pl-4 md:pl-8 ${
+        lastCard ? "pr-8" : ""
+      }`}
+    >
       <div className="w-[400px] h-[400px] absolute bottom-0 left-0 bg-gradient-to-r from-[#6300FF] to-[#5E00FF] rounded-full blur-[200px] z-[0] opacity-100" />
 
       {/* Apply motion to the list of cards */}

@@ -12,7 +12,7 @@ function HomePageGrowYourTeam() {
         alt="3D Logo Image"
       >
         <div className="flex flex-col max-w-[700px] items-center gap-6">
-          <h2 className="text-[4rem]">Grow your team</h2>
+          <h2 className="text-[4rem] text-center">Grow your team</h2>
           <p className="text-[1.5rem] text-center">
             We firmly believe that diverse teams lead to great outcomes, keeping
             your business at the forefront of innovation. Whether you're seeking

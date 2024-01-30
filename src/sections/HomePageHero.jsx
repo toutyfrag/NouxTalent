@@ -68,7 +68,7 @@ function HomePageHero() {
         alt="3D Logo Image"
       >
         <Marquee
-          className="text-[100px] md:text-[120px] font-extrabold"
+          className="text-[85px] md:text-[110px] lg:text-[120px] font-extrabold"
           loop={0}
           speed={70}
         >

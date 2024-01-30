@@ -1,6 +1,6 @@
 export const servicesCards = [
   {
-    heading: "We are redefining tech recruitmentf",
+    heading: "We are redefining tech recruitment",
     subheading: "by embedding DE&I into everything that we do",
   },
   {

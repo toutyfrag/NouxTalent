@@ -3,7 +3,7 @@ import { WhatWeDoCard } from "../components";
 import { useState, useEffect, useRef } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import whoWeAreValueCards from "../constants";
+import { whoWeAreValueCards } from "../constants";
 import servicesCards from "../constants";
 
 const WhoWeAreCards = () => {
@@ -66,7 +66,7 @@ const WhoWeAreCards = () => {
               cardSubHeading={whoWeAreValueCards[index].subheading}
               bgColor={`${colors[index % colors.length]}`}
               cardHeight={"h-[559px]"}
-              cardHeadingSize={"text-[4rem]"}
+              cardHeadingSize={"section-header"}
             />
           </SplideSlide>
         ))}
